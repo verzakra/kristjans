@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border: 0;
+    /*border: 4px solid red;*/
+}
+
+.main,
+.about,
+.katalog,
+.footer{
+    display: flex;
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/vizitka-ozadje.jpg);
+    background-size: 100%;
+    /*background-attachment: scroll;*/
+    flex-basis: 800px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.about{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 4px solid red;*/
+}
+
+.paragraf1{
+    padding: 0px;
+    border: 4px solid red;
+}
+
+.katalog{
+    justify-content: center;
+}
+
+button{
+    font-size:42px;
+    border-radius: 50px;
+    background-color: #5a5b5d;
+    margin: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.footer{
+    flex-direction: column;
+    background-color: #C62630;
+}
+
+h1,
+h2,
+p,
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
