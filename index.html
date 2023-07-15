@@ -12,11 +12,13 @@
         <h1>KRISTJAN SRDOČ S.P.</h1>        
     </div>
     <div class="about">
-        <h2>Večletne izkušnje na področju prodaje in izdelave pohištvenega okovja</h2>
+        <h2 class="about-h2">Večletne izkušnje na področju prodaje in izdelave pohištvenega okovja</h2>
         <p class="paragraf1">V podjetju se že več kot desetletje specializiramo na področju prodaje in izdelave pohištvenega okovja. 
             <br>Našim strankam se posvečamo in z njimi gradimo močne poslovne vezi, ter poskrbimo, 
             <br>da našim strankam nudimo najboljše rešitve.</p>
-        <p class="paragraf2">Podjetje posluje z več kot 60 podjetji iz več kot 10 držav tako bivše Jugoslavije kot tudi držav zahodne Evrope. Poleg dobave in nabave različnih tipov okovij, strankam nudimo tudi:</p>
+        <p class="paragraf2">Podjetje posluje z več kot 60 podjetji iz več kot 10 držav 
+            <br>tako bivše Jugoslavije kot tudi držav zahodne Evrope. 
+            <br>Poleg dobave in nabave različnih tipov okovij, strankam nudimo tudi:</p>
         <ul>
             <li>pakiranje izdelkov,</li>
             <li>izdelavo kovinskih izdelkov,</li>
@@ -26,10 +28,25 @@
     <div class="katalog">
         <button><a href="./katalog.pdf" target="_blank">SPLOŠNI KATALOG</a></button>
     </div>
-    <footer class="footer">
-        <h2>Kontakt</h2>
-        <p>E-mail: info@kristjans.si</p>
-        <p>Tel. Številka: +386 (0)31 781 117</p>
+    <footer>
+        <div class="kontakt">
+            <h2>Kontakt</h2>
+            <p>E-mail: <a href="mailto:info@kristjans.si">info@kristjans.si</a></p>
+            <p>Tel. Številka: +386 (0)31 781 117</p>
+        </div>
+        <div class="contact-form">
+            <h3>Kontaktirajte nas</h3>
+            <form method="post" action="contact-form.php">
+                <label for="ime-priimek">Ime in Priimek:</label><br>
+                <input type="text" id="ime-priimek" name="ime-priimek" required><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="besedilo">Besedilo:</label><br>
+                <textarea id="besedilo" name="besedilo" rows="10" cols="50"></textarea><br>
+                <input type="submit" value="Pošlji">
+                
+            </form>
+        </div>
     </footer>
 </body>
 </html>
